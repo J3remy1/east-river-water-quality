@@ -2,6 +2,9 @@
 
 Analysis of water-quality data my class collected on the East River on October 6, 2026, during *A Day in the Life of the Hudson & Harbor*, an annual field study organized by Columbia University's Lamont-Doherty Earth Observatory and partners.
 
+## Why this project
+On October 6, I waited for the precipitate in my sample bottle to settle before adding the third reagent to measure dissolved oxygen. The saturation chart assumes warmer water holds less oxygen, but the sun that warms the river also feeds algae that produce more. Which push moves the reading? Then the salinity meters disagreed: same spot, minutes apart. Before asking what drives dissolved oxygen, I had to know which readings to trust. This repository starts there.
+
 ## Questions
 1. How much do salinity readings taken at the same site disagree, and why?
 2. Relative to saturation, how much dissolved oxygen did the water hold once salinity is taken into account?
