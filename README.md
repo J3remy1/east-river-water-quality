@@ -8,12 +8,16 @@ On October 6, I waited for the precipitate in my sample bottle to settle before 
 ## Questions
 1. How much do salinity readings taken at the same site disagree, and why?
 2. Relative to saturation, how much dissolved oxygen did the water hold once salinity is taken into account?
+3. 3. Did the same saturation issue appear across the whole Day in the Life program?
 
 ## Data
 `data/ditl_2026-10-06_east_river.csv`: 18 measurements (6 groups × 3 trials) of salinity, water temperature, pH, turbidity, and dissolved oxygen, taken at one site between 10:34 and 12:30. Group names are replaced with letters A–F. Values are transcribed as recorded; only formats were standardized (units removed, times written as HH:MM).
+`notebooks/03_estuary_2025.ipynb` reads Lamont-Doherty's compiled 2025 Day in the Life data (about 90 sites from the Adirondacks to New York Harbor) directly from the public spreadsheet; the data are not copied into this repository.
 
 ## Findings
 **Salinity** ([notebook](notebooks/01_salinity_by_group.ipynb)): Readings within a group mostly agree, but groups fall into two levels, about 26 ppt and 28–29 ppt. Groups B and F measured back to back yet differ by 2–3 ppt, which points to the meters or how they were read rather than the water itself. One reading (36 ppt) is saltier than the open ocean and was treated as an outlier.
+
+**Estuary-wide, 2025** ([notebook](notebooks/03_estuary_2025.ipynb)): At 22 salty sites (above 10 ppt), reported saturation matched a freshwater calculation (17 of 22 within 5 points) and fell a median 11.4 points below the salinity-corrected value; freshwater sites matched, as expected. The freshwater-table issue in my class's data appears to be program-wide.
 
 **Dissolved oxygen** ([notebook](notebooks/02_dissolved_oxygen.ipynb)): The saturation values the groups reported match a freshwater saturation table. Correcting for salinity raises saturation by about 15 percentage points, to roughly 100–117%; given the test kit's whole-number resolution, the water was approximately saturated.
 
