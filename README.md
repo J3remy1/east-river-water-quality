@@ -25,7 +25,7 @@ On October 6, I waited for the precipitate in my sample bottle to settle before 
 
 **Estuary-wide, 2020–2025** ([2025 notebook](notebooks/03_estuary_2025.ipynb), [six-year notebook](notebooks/04_estuary_2020_2025.ipynb)): At salty sites (above 10 ppt), 73 of 100 reported values fall within 5 points of a freshwater calculation. Against the salinity-corrected value, they run low every year, by a median of 7.8 to 13.6 points. At freshwater sites (below 1 ppt, 65 readings), the median gap is 0.2 to 2.8 points.
 
-**What drives dissolved oxygen** ([notebook](notebooks/05_oxygen_regression.ipynb)): Holding temperature fixed, dissolved oxygen falls 0.055 ppm per ppt of salinity (95% CI −0.080 to −0.031), close to the 0.053 that oxygen solubility predicts. On average the water was about 93% saturated. With the freshwater chart, saturation appears to fall with salinity, as if salty water were more oxygen-starved; with the salinity-corrected calculation, that trend disappears (−0.03 points per ppt, 95% CI −0.30 to +0.25).
+**What drives dissolved oxygen** ([notebook](notebooks/05_oxygen_regression.ipynb)): Holding temperature fixed, dissolved oxygen falls 0.055 ppm per ppt of salinity (95% CI −0.080 to −0.031), close to the 0.053 that oxygen solubility predicts. On average the water was about 93% saturated. With the freshwater chart, saturation appears to fall with salinity, as if salty water were more oxygen-starved; with the salinity-corrected calculation, that trend disappears (−0.02 points per ppt, 95% CI −0.30 to +0.25).
 
 ## Limitations
 - My class's data: one site on one day; some values appear to be shared across groups, so the 18 readings are not all independent. With this data alone, measurement error cannot be separated from tidal change.
